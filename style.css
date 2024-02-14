@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: rgb(32, 27, 99);
+}
+.app {
+    border: solid 1px white ;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.gen{
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.rap {
+    color: rgb(102, 212, 102);
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(102, 212, 102);
+    display: inline-block;
+    
+}
+.middle {
+    background: white;
+    color: grey;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+input {
+    outline: 0;
+    border: 0;
+}
+.js-copy {
+    cursor: pointer;
+}
+.bottom {
+    text-align: center;
+}
+button {
+    background-color: rgb(102, 212, 102);
+    color: white;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(102, 212, 102);
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all;
+}
+button:hover{
+    opacity: 0.9;
+}
+.zz {
+    margin-right: 4px;
+}
